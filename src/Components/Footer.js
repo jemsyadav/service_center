@@ -6,7 +6,7 @@ import footer03 from '../Images/footer03.webp'
 
 const Footer = () => {
   return (
-    <div >
+    <div className='container-fluid'>
        <div className="fotter">
 <div className="row">
   <div className="col-4">
@@ -64,16 +64,7 @@ const Footer = () => {
   <div className="col-md-4 col-sm-12">
     <h3 className='text-white'>LATEST POSTS</h3>
     <hr />
-    <div className="footer-image d-flex">
-      <div className="image01">
-     <img src={footer01} alt="" />
-     <h4>DYNAMICUS</h4>
-      </div>
-      <div className="image-text ">
-      <a href="https://bengkeltheme.themesawesome.com/category/post-formats/" rel="category tag">Post Formats</a>
-      <h5>CLARITAS EST ETIAM PROCESSUS</h5>
-      </div>
-    </div>
+   
     <div className="footer-image d-flex">
       <div className="image01">
      <img src={footer02} alt="" />
@@ -95,7 +86,17 @@ const Footer = () => {
       </div>
     </div>
   </div>
-</div>
+</div> 
+{/* <div className="footer-image d-flex">
+      <div className="image01">
+     <img src={footer01} alt="" />
+     <h4>DICUS</h4>
+      </div>
+      <div className="image-text ">
+      <a href="https://bengkeltheme.themesawesome.com/category/post-formats/" rel="category tag">Post Formats</a>
+      <h5>CLARITAS EST ETIAM PROCESSUS</h5>
+      </div>
+    </div> */}
    </div>
    <div className="footer-credit">
     <div className="row">

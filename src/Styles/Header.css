@@ -1,0 +1,37 @@
+.Apppoinment_Button{
+    background-color: #3786b4; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+li {
+    float: left;
+  }
+  
+  .Navbar_Styles{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #dedada;
+    flex-direction: column;
+    margin-right: 15rem;
+
+
+    
+  }
+  .navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: #3786b4;
+    text-align: center;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
